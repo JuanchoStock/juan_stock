@@ -19,7 +19,7 @@
 {
   "id": "string",
   "userId": "string",
-  "coffee": "string"
+  "coffee": ["Espresso", "Americano", "Cappuccino"]
 }
 ```
 

@@ -24,8 +24,11 @@ $form.addEventListener("submit", async (e) => {
   }).then((response) => {
     if (response.ok) {
       // ! REDIRIGIR AL USUARIO A LA PÁGINA PRINCIPAL
+      window.location.href = "../src/main.js"
     } else {
       // ! MOSTRAR UN MENSAJE DE ERROR AL USUARIO
+        // Obtener el elemento que muestra el mensaje de error
+        const errorElement = document.getElementById("ERROR");
     }
   });
 });

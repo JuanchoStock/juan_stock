@@ -27,6 +27,6 @@ await fetch("http://localhost:4321/auth/me", {})
       $root.appendChild(listOfOrders());
     } else {
       // Redirigir al usuario a la página de inicio de sesión
-      window.location.href = "/pages/login";
+      window.location.href = "/pages/main.js";
     }
   });
